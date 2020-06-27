@@ -14,6 +14,9 @@
    font-weight: 800;
    text-shadow: 0px 1px 0px rgba(0,0,0,.5);
 }
+#convertblue{
+  color: #3fbcf9;
+}
 .handwashimg{
    padding: 2em;
    height: 300px;
@@ -49,34 +52,69 @@
 }
 
 /* PAGE 2 STYLES*/
-
-#convertblue{
-   color: #3fbcf9;
-}
-.custom-container{
-   width: 100%;
-}
-#lefttextbox{
-   padding: 1em;
-   width: 100%;
-   height: 500px;
-   border: 1px solid black;
-}
-.img{
-   padding: 1em;
-   width: 100px;
-   height: 100px;
-}
-#gownone{
-   margin-right: 40px;
-}
-#draganddropbox{
-   padding: 1em;
-   width: 100%;
-   height: 500px;
-   border: 1px solid black;
-}
-
-#div1, #div2 {
+.mycontainer{
+   width: 90%;
+   height: 100%;
+   margin-top: 3rem;
+   padding: 2em;
+   margin-left: 4%;
+ }
+ .leftcolumn, .rightcolumn{
+   height: 650px;
+   width: 50%;
+ }
+ .leftcolumn{
+   border: 1px solid blue;
+ }
+ .rightcolumn{
+   border: 1px solid green;
+ }
+ #pic1, #pic2{
+   width: 200px;
+   height: 200px;
+   padding: 10px;
+ }
+ .col1, .col2{
+   padding: 2rem;
+   align-items: center;
+   text-align: center;
+   margin-top: 25%;
+ }
+ .col3, .col4{
+   width: 300px;
+   height: 400px;
+   align-items: center;
+   text-align: center;
+   margin-top: 10%;
    padding: 1rem;
-}
+   margin-left: 3.5%;
+ }
+ #div1, #div2{
+   padding: 1rem;
+ }
+ #div1{
+   border: 1px black;
+   border-style: dashed;
+   border-radius: 3em;
+
+ }
+ #div2{
+   border: 1px black;
+   border-style: dashed;
+   border-radius: 3em;
+ }
+ #finaltext{
+   border: 1px dashed blue;
+   border-radius: 1em;
+   padding: 1em;
+   margin-left: 20%;
+   margin-top: 2rem;
+   display: inline-block;
+ }
+ #lefttext{
+   padding: 1em;
+   width: 70% ;
+   margin-left: 10%;
+   margin-top: 2rem;
+ }
+ 
