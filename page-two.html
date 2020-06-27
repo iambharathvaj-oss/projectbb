@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>PageTwo</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <link href="/main.css" rel="stylesheet">
+      <script src="./main.js"></script>
+   </head>
+   
+<body>
+
+<!-- WHOLE CONTAINER -->
+<div class="container custom-container">
+<!-- TITLE CARD H2-->
+<h2 id="titlecard">PROCEDURE TO WEAR <span id="convertblue">GOWN</span></h2>
+
+<!-- OUTER TWO COLUMNS (CONTAINS LEFT TEXT BOX + RIGHT DRAG AND DROP BOX)-->
+<div class="row">
+
+   <div class="col-sm-12 col-md-5" id="lefttextbox"> <!-- LEFT TEXT BOX --> 
+      <div class="row">
+         <div class="col-sm-12 col-md-6 img" id="gownone">
+            <img src="./assets/gown/gown 1.png" alt="GownOne">
+         </div>
+         <div class="col-sm-12 col-md65 img">
+            <img src="./assets/gown/gown 2.png" alt="GownTwo">
+         </div>
+      </div>
+   </div>
+
+   <div class="col-sm-12 col-md-5" id="draganddropbox"> <!-- RIGHT DRAG AND DROP BOX --> 
+      <div class="row">
+         <div class="col-sm-12 col-md-6" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="./assets/gown/coat.svg" alt="Coat" draggable="true" ondragstart="drag(event)" id="drag1">
+         </div>
+         <div class="col-sm-12 col-md-6" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="./assets/gown/gown 4.png" alt="Person">
+         </div>
+      </div>
+   </div>
+
+</div>
+
+
+</div>
+</body>
+</html>

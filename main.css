@@ -24,7 +24,8 @@
 .hwashtext > ul{
    text-align: center;
    list-style-position: inside;
-
+   position: relative;
+   margin-left: 5em;
 }
 .hwashtext li{
    color: #373E3D;
@@ -33,17 +34,49 @@
 }
 .pagers{
    display: inline-block;
-   text-align: center;
+   position: relative;
 }
 #previousbutton{
    margin:auto;
    padding: 2em;
+   text-align: center;
+
 }
 
 #nextbutton{
    margin:auto;
    padding: 2em;
-   /*margin:auto;
-   display:block;
-   padding: 2em;*/
+}
+
+/* PAGE 2 STYLES*/
+
+#convertblue{
+   color: #3fbcf9;
+}
+.custom-container{
+   width: 100%;
+}
+#lefttextbox{
+   padding: 1em;
+   width: 100%;
+   height: 500px;
+   border: 1px solid black;
+}
+.img{
+   padding: 1em;
+   width: 100px;
+   height: 100px;
+}
+#gownone{
+   margin-right: 40px;
+}
+#draganddropbox{
+   padding: 1em;
+   width: 100%;
+   height: 500px;
+   border: 1px solid black;
+}
+
+#div1, #div2 {
+   padding: 1rem;
 }
