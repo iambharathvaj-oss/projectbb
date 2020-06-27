@@ -63,12 +63,12 @@
    height: 650px;
    width: 50%;
  }
- .leftcolumn{
+ /*.leftcolumn{
    border: 1px solid blue;
  }
  .rightcolumn{
    border: 1px solid green;
- }
+ }*/
  #pic1, #pic2{
    width: 200px;
    height: 200px;
@@ -118,3 +118,9 @@
    margin-top: 2rem;
  }
  
+ /* For page three */
+
+ .mymask{
+   padding: 1em;
+   margin-top: 10px;
+ }

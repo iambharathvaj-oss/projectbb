@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Page-three</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+
+<body>
+   <div class="mycontainer">
+      <h2 id="titlecard">PROCEDURE TO WEAR <span id="convertblue">MASK OR RESPIRATOR</span></h2>
+   
+   <!--    -------------------------------------------------------  -->
+       <div class="row">
+         <!--    -------------------------------------------------------  -->
+       <div class="leftcolumn col-sm-12 col-md-5">
+         <div class="row">
+         <div class="col1 col-sm-12 col-md-5">
+             <img src="./assets/mask/mask 1.png" alt="Gown One" id="pic1">
+         </div>
+         <div class="col2 col-sm-12 col-md-5">
+             <img src="./assets/mask/mask.png" alt="Gown Two" id="pic2">
+         </div>
+         </div>
+         <div class="final text" id="lefttext">
+            <ul>
+               <li>Secure ties or elastic bands at middle of head and neck.</li>
+               <li>Fit flexible band to nose bridge.</li>
+               <li>Fit snug to face and below chin.</li>
+               <li>Fit check respirator.</li>
+            </ul>
+         </div>
+       </div>
+             <!--    -------------------------------------------------------  -->
+   
+       <div class="rightcolumn col-sm-12 col-md-5">
+         <div class="row">
+         <div class="col3 col-sm-12 col-md-4" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="./assets/mask/mask 2.png" draggable="true" ondragstart="drag(event)" id="drag1">
+         </div>
+         <div class="col4 col-sm-12 col-md-4" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" style="background: url('./assets/mask/mask-3.png'); background-size:cover;">
+            
+            <!-- <img src="./assets/gown/gown 4.png" alt="gown4"> -->
+   
+         </div>
+         </div>
+   
+         <div class="final text" id="finaltext">
+           <p>Drag the mask to the employee to continue to the next slide.</p>
+         </div>
+         </div>
+       </div>
+       <!--    -------------------------------------------------------  -->
+     </div>
+     <!--    -------------------------------------------------------  -->
+   
+</body>
+</html>
