@@ -1,17 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 
 body{
-   font-family: 'Merriweather Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
 
 }
-.container{
-   /*background-color: aqua;*/
-   margin-top: 5em;
-   padding: 1em;
-   width: 70%;
-}
+
 #titlecard{
    text-align: center;
    padding: 2rem;
@@ -21,37 +16,44 @@ body{
 }
 #convertblue{
    color: #3fbcf9;
+ }
+ .container{
+    width: 50%;
+    height: 700px;
+    margin-left: 25%;
+    text-align: center;
+ }
+ .questions{
+    padding: 2em;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1px;
+ }
+ .truebutton, .falsebutton{
+    align-items: center;
+    margin-right: 100px;
+ }
+
+.btn:hover{
+   background-color: #3fbcf9;
+   color: black;
 }
-.handwashimg{
-   padding: 2em;
-   height: 300px;
-   width: 300px;
-   margin-left: 0;
+.btn{
+   border-radius: 1em;
+   padding: 10px;
+   width: 90px;
 }
-.hwashtext{
-   text-align: center;
-   color: #373E3D;
-   font-weight: 200;
-   padding: 3px;
-}
-.next{
- text-align: center;
-}
-#nextbutton{
-   margin:auto;
-   display:block;
-   padding: 2em;
+/* .pager{
+   margin-top: 20px;
+} */
+#lastbutton{
+   width: 50%;
+   padding: 10px;
+   margin-top: 3%;
 }
 
-/*margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);*/
 
-  
-
-  @keyframes fadein {
+@keyframes fadein {
    from {
        opacity:0;
    }
