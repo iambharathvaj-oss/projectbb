@@ -55,14 +55,16 @@
 .mycontainer{
    width: 90%;
    height: 100%;
-   margin-top: 3rem;
+   margin-top: 1em;
    padding: 2em;
    margin-left: 4%;
  }
  .leftcolumn, .rightcolumn{
    height: 650px;
    width: 50%;
+   margin-bottom: 0;
  }
+
  /*.leftcolumn{
    border: 1px solid blue;
  }
@@ -70,9 +72,9 @@
    border: 1px solid green;
  }*/
  #pic1, #pic2{
-   width: 200px;
-   height: 200px;
-   padding: 10px;
+   width: 70%;
+   height: 100%;
+   padding: 1rem;
  }
  .col1, .col2{
    padding: 2rem;
@@ -88,6 +90,8 @@
    margin-top: 10%;
    padding: 1rem;
    margin-left: 3.5%;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+
  }
  #div1, #div2{
    padding: 1rem;
@@ -124,3 +128,14 @@
    padding: 1em;
    margin-top: 10px;
  }
+
+ #drag1{
+   width: 90%;
+   height: 90%;
+   padding: 1em;
+ }
+.bottomtext{
+  padding: 1em;
+  width: 70% ;
+  text-align: center;
+}
